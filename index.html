@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poker handrange</title>
+</head>
+<style>
+    table#oppRange {
+        width: 50%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    table#oppRange td {
+        border: 1px solid #b9b9b9;
+        text-align: center;
+        padding: 3px;
+    }
+
+    div#position {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    div#select {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1>ポーカー　ハンドレンジ表</h1>
+    <table id="oppRange"></table><br>
+    <div id="position">
+        <input type="radio" name="position" value="EP" checked>EP
+        <input type="radio" name="position" value="HJ">HJ
+        <input type="radio" name="position" value="CO">CO
+        <input type="radio" name="position" value="BTN">BTN<br>
+    </div>
+    <div id="select">
+        <input type="text" id="custom" size=70>
+        <button>表示</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="./index.js">
+
+    </script>
+</body>
+
+</html>
